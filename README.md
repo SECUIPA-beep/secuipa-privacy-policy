@@ -1,2 +1,271 @@
-# secuipa-privacy-policy
-PRIVACY POLICY OF THE APP SECUIPA 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SECUIPA</title>
+    <style>
+        /* Modern reset and subtle minimalist styling (Light Mode Only) */
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #1e293b;
+            --muted-color: #64748b;
+            --accent-color: #2563eb;
+            --border-color: #e2e8f0;
+            --callout-bg: #f1f5f9;
+            --callout-border: #0284c7;
+            --max-width: 780px;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-family);
+            line-height: 1.7;
+            padding: 3rem 1rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        main {
+            width: 100%;
+            max-width: var(--max-width);
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+
+        header {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            margin-bottom: 0.5rem;
+            color: #0f172a;
+        }
+
+        .meta-info {
+            font-size: 0.875rem;
+            color: var(--muted-color);
+        }
+
+        .notice-box {
+            background-color: var(--callout-bg);
+            border-left: 4px solid var(--callout-border);
+            padding: 1.25rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .notice-box h2 {
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: #0369a1;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-top: 1.75rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.015em;
+            color: #0f172a;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #334155;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        code {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            background-color: #f1f5f9;
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #0f172a;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: auto;
+            padding-top: 2rem;
+            width: 100%;
+            max-width: var(--max-width);
+            font-size: 0.875rem;
+            color: var(--muted-color);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="meta-info"><strong>Application:</strong> SECUIPA (Security + UPSC + IPA) | <strong>Package:</strong> <code>com.example.secuipa</code> | <strong>Target Platform:</strong> Android (SDK 24+)</p>
+            <p class="meta-info"><strong>Last Updated:</strong> March 2025</p>
+        </header>
+
+        <!-- Callout Box: Offline Notice -->
+        <div class="notice-box">
+            <h2>Important Notice: 100% Offline App & Sole User Custodianship</h2>
+            <p>
+                SECUIPA is a <strong>COMPLETELY OFFLINE</strong> application. Once downloaded and installed, you as the user are the <strong>SOLE CUSTODIAN</strong> of the application and all data created or stored within it. There is ZERO exchange of any personal data, study data, or usage metrics between the developers and the users in any manner whatsoever. The app does not connect to any developer servers, and data collection by the developers is technically not possible.
+            </p>
+        </div>
+
+        <!-- Section 1 -->
+        <section>
+            <h2>1. Overview and Principles</h2>
+            <p>
+                SECUIPA ("we", "our", or "the App") is an offline study companion, exam preparation, task management, and behavioral reinforcement application tailored for Civil Services aspirants (including Union Public Service Commission - UPSC examinations).
+            </p>
+            <p>
+                We adhere strictly to absolute privacy through a <strong>100% LOCAL &amp; OFFLINE ARCHITECTURE</strong>. All your profile information, study progress, level roadmap, flashcards, notes, activity logs, and custom map slideshows are stored exclusively on your local device.
+            </p>
+        </section>
+
+        <!-- Section 2 -->
+        <section>
+            <h2>2. Absolute Zero Data Exchange</h2>
+            <ul>
+                <li><strong>No Telemetry or Analytics:</strong> We do not collect, track, aggregate, or monitor any user interaction, usage metrics, or crash logs.</li>
+                <li><strong>No Remote Servers:</strong> The developers do not maintain or connect SECUIPA to any server infrastructure for data harvesting.</li>
+                <li><strong>Sole Custodianship:</strong> You retain complete, unalienable control over your instance of the app and its data. Neither the developers nor any third party can access, read, transfer, or modify your stored data.</li>
+            </ul>
+        </section>
+
+        <!-- Section 3 -->
+        <section>
+            <h2>3. Information You Store on Your Device</h2>
+            <p>All data provided or generated while using SECUIPA resides locally on your device only:</p>
+            <ul>
+                <li><strong>Personal Details:</strong> Full Name, Date of Birth, Profile Photo (captured/updated locally via Camera).</li>
+                <li><strong>Exam Preparation Profile:</strong> Target Exam Year, Preparation Stage, Optional Subject selection, Daily Commitment hours, Mission Start and End dates, and Execution Mode settings.</li>
+                <li><strong>Study &amp; Map Content:</strong> Custom flashcards, notes, test scores, subjective answer submissions, custom schedule overrides, and user-selected map photos/images for the Maps Slideshow feature.</li>
+            </ul>
+        </section>
+
+        <!-- Section 4 -->
+        <section>
+            <h2>4. Permissions &amp; Local On-Device Usage</h2>
+            <p>Permissions requested by SECUIPA operate strictly locally on your device:</p>
+            
+            <h3>A. Camera Permission (<code>android.permission.CAMERA</code>)</h3>
+            <p>Used EXCLUSIVELY for capturing and updating your profile photo locally within the application. Images stay on your device and cannot be transmitted anywhere.</p>
+
+            <h3>B. Local Storage Access (<code>READ_EXTERNAL_STORAGE</code>, <code>WRITE_EXTERNAL_STORAGE</code>)</h3>
+            <p>Used solely to allow you to select map photos/images for the Maps Slideshow feature (in the Dashboard / Tools screen), export local database backups, and save study material PDFs locally.</p>
+
+            <h3>C. Notifications (<code>POST_NOTIFICATIONS</code>)</h3>
+            <p>Used solely for local on-device alarms, daily study reminders, and habit alerts generated by your device's internal clock.</p>
+
+            <h3>D. Alarms &amp; Receivers (<code>SCHEDULE_EXACT_ALARM</code>, <code>RECEIVE_BOOT_COMPLETED</code>)</h3>
+            <p>Used for local interval timers and midnight rollover processing on your device.</p>
+
+            <h3>E. Biometric Authentication (<code>androidx.biometric</code>)</h3>
+            <p>Used for an optional App Lock feature. Biometric verification is processed entirely within your device's hardware Security Enclave (TEE/StrongBox). Raw biometric data is never accessible to SECUIPA or any external party.</p>
+        </section>
+
+        <!-- Section 5 -->
+        <section>
+            <h2>5. Data Security &amp; Storage</h2>
+            <ul>
+                <li>All configuration settings and sensitive keys are secured locally on your device via <code>EncryptedSharedPreferences</code> (<code>androidx.security.crypto</code>).</li>
+                <li>Structured study records, tasks, levels, and notes are managed inside an encrypted local SQLite database using Room (<code>SecuipaDatabase</code>).</li>
+            </ul>
+        </section>
+
+        <!-- Section 6 -->
+        <section>
+            <h2>6. Data Retention, Backup, and Erasure</h2>
+            <ul>
+                <li><strong>Full User Control:</strong> Because SECUIPA is completely offline, all data stays with you.</li>
+                <li><strong>Export &amp; Backup:</strong> You can create, export, or import encrypted local database backups using the built-in Backup Manager (<code>BackupManager</code>).</li>
+                <li><strong>Data Permanent Erasure:</strong> Clearing app data through Android System Settings or uninstalling SECUIPA will permanently erase all app data from your device. Since developers do not have your data, it cannot be restored from any cloud server.</li>
+            </ul>
+        </section>
+
+        <!-- Section 7 -->
+        <section>
+            <h2>7. Children's Privacy</h2>
+            <p>
+                SECUIPA is intended for students and civil services candidates. As a completely offline application with zero data collection, no information from any user (including children under 13) is collected or transmitted.
+            </p>
+        </section>
+
+        <!-- Section 8 -->
+        <section>
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>
+                This Privacy Policy outlines the static, offline operational model of SECUIPA. Should any future updates introduce optional network features, this policy will be revised accordingly.
+            </p>
+        </section>
+
+        <!-- Section 9 -->
+        <section>
+            <h2>9. Contact Us</h2>
+            <p>For support or developer inquiries regarding SECUIPA:</p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:kanatomaero@gmail.com">kanatomaero@gmail.com</a><br>
+                <strong>Development Team:</strong> SECUIPA App Team
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SECUIPA App Team. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
